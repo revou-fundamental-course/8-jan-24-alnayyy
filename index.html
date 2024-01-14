@@ -8,18 +8,41 @@
 </head>
 <body>
     <header> 
-        <h1>Kalkuator Luas dan Keliling Persegi</h1>
-        <h4>welcome to kalkulator Luas dan Keliling Persegi</h4>
-        <p>Web ini digunakan untuk menghitung Luas dan Keliling Persegi dalam rangka menyelesaikan mini project Revou</p>
+        <div>
+            <h1>KAMPER</h1>
+            <h2>Kalkulator Matematik untuk Persegi</h2>
+        </div>
+        <h3>HI! Welcome to KAMPER</h3>
+        <p>KAMPER adalah kalkulator yang dibuat untuk memudahkan dalam menghitung luas dan keliling Persegi</p>
     </header>
 
-    <div class="inputSection">
-        <label for="squareSide" id="labelsquareSide">Hitung Luas Persegi</label>
-        <input type="number" id="squareSide"> 
-    </div>
-    <div class="buttons">
-        <button id="countButton"> Hitung</button>
-        <button id="resetButton">Reset</button>
-    </div>
+    <fieldset>
+
+        <h2 class="square" id="square">Persegi</h2>
+        
+        <center><img src="https://rumusq.id/wp-content/uploads/2019/12/persegi.jpg" alt="persegi"></center>
+
+        <p class="square" id="square"></p>
+        <p id="square">Rumus luas dan keliling persegi :</p>
+        <p class="square">L = s x s</p>
+        <p class="square">K = 4 x s</p>
+        <p id="square">Keterangan:</p>
+        <p>s : panjang sisi persegi</p>
+        <p>L : luas persegi</p>
+        <p>K : keliling persegi</p>
+
+        <div class="inputSection">
+            <label for="squareSide" id="labelsquareSide">Masukkan panjang sisi persegi</label>
+            <input type="number" id="squareSide"> 
+        </div>
+        <div class="buttons">
+            <center>
+                <button id="countButton"> Hitung</button>
+            </center>
+            <br>
+            <button id="resetButton">Reset</button>
+        </div>
+    </fieldset>
+    
 </body>
 </html>
