@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Katik Persegi</title>
 </head>
 <body>
@@ -13,13 +13,13 @@
             <h2>Kalkulator Matematik untuk Persegi</h2>
         </div>
         <h3>HI! Welcome to KAMPER</h3>
-        <p>KAMPER adalah kalkulator yang dibuat untuk memudahkan dalam menghitung luas dan keliling Persegi</p>
+        <p>KAMPER adalah kalkulator yang dibuat untuk memudahkan dalam menghitung luas dan keliling Persegi. Kamper ini merupakan tugas mini project dari Revou.</p>
     </header>
 
     <fieldset>
 
         <h2 class="square" id="square">Persegi</h2>
-        
+
         <center><img src="https://rumusq.id/wp-content/uploads/2019/12/persegi.jpg" alt="persegi"></center>
 
         <p class="square" id="square"></p>
@@ -32,9 +32,16 @@
         <p>K : keliling persegi</p>
 
         <div class="inputSection">
+            <div> 
+              <p id="hasil"></p>
+              <p id="luaspersegi"></p>
+              <p id="kelilingpersegi"></p>
+            </div>
             <label for="squareSide" id="labelsquareSide">Masukkan panjang sisi persegi</label>
+          <br>
             <input type="number" id="squareSide"> 
         </div>
+         <p id="result"></p>
         <div class="buttons">
             <center>
                 <button id="countButton"> Hitung</button>
@@ -43,6 +50,6 @@
             <button id="resetButton">Reset</button>
         </div>
     </fieldset>
-    
+    <script src="./JS/style.js"></script>
 </body>
 </html>

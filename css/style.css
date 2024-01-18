@@ -7,7 +7,6 @@ header {
 }
 
 header div {
-    color: #3A4D39;
     background-color: lightskyblue;
     padding: 20px;
     color: white;
@@ -18,14 +17,14 @@ header div h2 {
 }
 
 header h3 {
-    margin-top: 32px;
-    color: #3A4D39;
+    margin-top: 64px;
+    color: black;
 }
 
 header p {
     margin-top: -10px;
     font-size: small;
-    color: #739072;
+    color: #3691b0;
     margin-bottom: 20px;
 }
 
@@ -34,6 +33,10 @@ img {
 }
 .square {
     text-align: center;
+}
+
+fieldset {
+    margin-top: 64px;
 }
 
 #square {
@@ -47,7 +50,7 @@ img {
 }
 
 #labelsquareSide {
-    margin-top: 32px;
+    margin-top: 64px;
     text-align: center;
     font-size: medium;
     font-weight: bold;
@@ -88,5 +91,132 @@ button:active {
     transform: translateY(1px);
 }
 
+#hasil {
+  margin-top : 16px;
+  font-weight : bold;
+  font-size : large;
+}
 
+#luaspersegi {
+  text-align : center ;
+}
 
+#kelilingpersegi {
+  text-align : center ;
+}
+
+#result {
+  color: red;
+  font-family: Courier;
+  margin-top: 2px;
+  font-size: small;
+}body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+header div {
+    color: #3A4D39;
+    background-color: lightskyblue;
+    padding: 20px;
+    color: white;
+}
+
+header div h2 {
+    margin-top: -10px;
+}
+
+header h3 {
+    margin-top: 32px;
+    color: #3A4D39;
+}
+
+header p {
+    margin-top: -10px;
+    font-size: small;
+    color: #3691b0;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 150px;
+}
+.square {
+    text-align: center;
+}
+
+#square {
+    font-weight: bold;
+}
+
+.inputSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+#labelsquareSide {
+    margin-top: 64px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#squareSide {
+    margin-top: 10px;;
+    outline: none;
+    border-radius: 8px;
+    border: solid rgb(122, 190, 233);
+    padding: 10px;
+}
+
+#squareSide:focus {
+    border: solid  rgb(122, 190, 233);
+}
+
+#resetButton {
+    float: right;
+}
+
+button{
+    background-color: lightskyblue;
+    color: white; 
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(118, 188, 231);
+}
+
+button:active {
+    background-color: rgb(107, 173, 214);
+    transform: translateY(1px);
+}
+
+#hasil {
+  margin-top : 16px;
+  font-weight : bold;
+  font-size : large;
+}
+
+#luaspersegi {
+    font-weight: bold ;
+  }
+  
+#kelilingpersegi {
+    font-weight: bold ;
+  }
+
+#result {
+  color: red;
+  font-family: Courier;
+  margin-top: 2px;
+  font-size: small;
+}
